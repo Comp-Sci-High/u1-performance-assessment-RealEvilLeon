@@ -97,6 +97,16 @@ console.log(takeCareOfPet(["Burgers", "Hotdogs","Pizza"], 17))
 // ----------------------------
 // 5th Floor
 
+function callMsg5Times(msg){
+let array5 = [];
+    for(let i = 0; i < 6; i++){
+            array5.push(msg)
+    }
+console.log("Open Sesame!")
+}
+
+callMsg5Times("Jet 2 Holiday")
+
 
 
 
