@@ -11,6 +11,17 @@ let mprItems = ["mirrors", "speakers", "chairs", "portable stereo", "projector",
 
 
 // Commit and show us to unlock the next floor's instructions
+
+let firstItem = weworkItems.shift()
+computerLabItems.push(firstItem)
+
+computerLabItems[2] = "fixed laptop";
+
+let mprLength = toString(mprItems.length)
+let clLength = toString(computerLabItems.length)
+let weWorkLength = toString(weworkItems.length)
+
+let allLength = mprLength + clLength + weWorkLength
 // ----------------------------
 // 3rd Floor
 // Do not modify these objects directly
