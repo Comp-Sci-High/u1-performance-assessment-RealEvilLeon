@@ -32,6 +32,11 @@ let scoreValues = {
     "R": "Resilience"
 }
 
+scoreValues["C"] = "Consistency"
+scoreValues["O"] = "Ownership"
+
+scoreValues["E"] = "Excellence"
+
 let afterSchoolClubs = {
     athletic: [
         {
@@ -62,6 +67,12 @@ let afterSchoolClubs = {
         }     
     ]
 }
+
+afterSchoolClubs.athletic[0].club = "British Football Club"
+afterSchoolClubs.social[0].location = "Balcony"
+
+
+
 
 
 // Commit and show us to unlock the next floor's instructions
