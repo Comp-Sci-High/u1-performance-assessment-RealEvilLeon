@@ -79,14 +79,18 @@ afterSchoolClubs.social[0].location = "Balcony"
 // ----------------------------
 // 4th Floor
 // Uncomment the code below to begin this task
+ function takeCareOfPet(snacks, pets) {
 
-// let takeCareOfPet = function(snacks, pets) => {
-//     if (Snacks[2] === "hotdogs" && pets > 10) {
-//         return "Raccoon has been appeased"
-//     } else {
-//         return "The raccoon bit you and you died of rabies."
+    if (snacks[2] === "hotdogs" && pets > 10) {
+        return "Raccoon has been appeased"
+    } else {
+        return "The raccoon bit you and you died of rabies."
     
-// }
+}
+
+}
+
+console.log(takeCareOfPet(["Burgers", "Hotdogs","Pizza"], 17))
 
 
 // Commit and show us to unlock the next floor's instructions
